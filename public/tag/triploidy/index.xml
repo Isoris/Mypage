@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Triploidy | Welcome</title>
+    <link>/tag/triploidy/</link>
+      <atom:link href="/tag/triploidy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Triploidy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Quentin ANDRES 2021</copyright><lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Triploidy</title>
+      <link>/tag/triploidy/</link>
+    </image>
+    
+    <item>
+      <title>Polyploid fish - Principles, Importance and Applications in main marine aquaculture species</title>
+      <link>/publication/polyploid-fish/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/polyploid-fish/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Triploid atlantic salmon</title>
+      <link>/publication/salmon/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/salmon/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
