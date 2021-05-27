@@ -39,14 +39,6 @@ item:
   organization_url: https://www.edx.org/professional-certificate/harvardx-data-analysis-for-life-sciences
   title:  Data Analysis for Life Sciences
   url: ""
-- certificate_url: "./media/NEDAC.PDF"
-  date_end: ""
-  date_start: "2020-11-23"
-  description: "Innovative Biofloc Technologies For Sustainable Production of Tilapia and Shrimps"
-  organization: nedac
-  organization_url: https://www.nedac.info/
-  title: 'I-FLOCS 2020'
-  url: ""
 - certificate_url: "./media/YSFRI2.jpg"
   date_end: ""
   date_start: "2020-12-15"
@@ -62,14 +54,6 @@ item:
   organization: naca
   organization_url: http://www.ysfri.ac.cn/ENGLISH.htm
   title: 'Training Manual on Mariculture Technologies for the Asia-Pacific Region'
-  url: ""
-- certificate_url: "./media/25years.pdf"
-  date_end: ""
-  date_start: "2020-05-01"
-  description: "(FAO) Celebrating a Quarter of Century of Responsible Fisheries and Aquaculture: Sustainable and resource efficient examples of desert aquaculture from the GCC countries, following the Code of Conduct for Responsible Fisheries (CCRF)."
-  organization: fao
-  organization_url: https://www.aitaquaculture.org/news/20/01.jpg
-  title: 'Aquaculture in the desert: the example of GCC countries'
   url: ""
 # - certificate_url: "./media/TOEFL.pdf"
 #   date_end: ""
