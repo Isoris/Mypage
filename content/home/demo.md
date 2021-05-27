@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-title: Welcome to my page
+title: Welcome to <br> my page
 
 
 design:
@@ -25,7 +25,7 @@ design:
     image_size: cover
     text_color_light: true
   spacing:
-    padding: ["100px", "0", "240px", "0"]
+    padding: ["100px", "0", "180px", "0"]
 ---
 
 
