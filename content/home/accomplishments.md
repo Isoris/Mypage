@@ -71,14 +71,14 @@ item:
   organization_url: https://www.aitaquaculture.org/news/20/01.jpg
   title: 'Aquaculture in the desert: the example of GCC countries'
   url: ""
-- certificate_url: "./media/TOEFL.pdf"
-  date_end: ""
-  date_start: "2020-05-01"
-  description: "The premier test of academic English communication, trusted worldwide."
-  organization: ets
-  organization_url: https://www.ets.org/toefl
-  title: 'TOEFL iBT: Score 103 / 120'
-  url: ""
+# - certificate_url: "./media/TOEFL.pdf"
+#   date_end: ""
+#   date_start: "2020-05-01"
+#   description: "The premier test of academic English communication, trusted worldwide."
+#   organization: ets
+#   organization_url: https://www.ets.org/toefl
+#   title: 'TOEFL iBT: Score 103 / 120'
+#   url: ""
 
 design:
   columns: '2' 
