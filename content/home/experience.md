@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 Experience:
   - company_url: "./media/internship.pdf"
-    date_start: "2021-07-15"
+    date_start: "2021-04-27"
     date_end: ""
     description: "Sustainable Aquaculture Systems and Practices"
     company_logo: AARM-logo
