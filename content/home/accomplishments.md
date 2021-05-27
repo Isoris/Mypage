@@ -43,7 +43,7 @@ item:
   date_end: ""
   date_start: "2020-11-23"
   description: "Innovative Biofloc Technologies For Sustainable Production of Tilapia and Shrimps"
-  organization: NEDAC
+  organization: nedac
   organization_url: https://www.nedac.info/
   title: 'I-FLOCS 2020'
   url: ""
@@ -51,7 +51,7 @@ item:
   date_end: ""
   date_start: "2020-12-15"
   description: "Training course on Mariculture Technologies for the Asia-Pacific Region hosted by Belt and Road, Training on Aquaculture Biosecurity, Ministry of Agriculture and Rural Affairs, People's Republic of China and Network of Aquaculture Centers in Asia-Pacific (NACA). December 15th-18th Qingdao, China"
-  organization: YSFRI
+  organization: ysfri
   organization_url: http://www.ysfri.ac.cn/ENGLISH.htm
   title: 'Training on Aquaculture Biosecurity for the Asia-Pacific Region'
   url: ""
@@ -59,7 +59,7 @@ item:
   date_end: ""
   date_start: "2020-10-21"
   description: "Training course on Mariculture Technologies & Integrated Multitrophic Aquaculture (IMTA) for the Asia-Pacific Region hosted by Belt and Road, Training base for mariculture technologies, Ministry of Agriculture and Rural Affairs, People's Republic of China and Network of Aquaculture Centers in Asia-Pacific (NACA). September 21th-25th Qingdao, China"
-  organization: YSFRI-NACA
+  organization: naca
   organization_url: http://www.ysfri.ac.cn/ENGLISH.htm
   title: 'Training Manual on Mariculture Technologies for the Asia-Pacific Region'
   url: ""
@@ -67,7 +67,7 @@ item:
   date_end: ""
   date_start: "2020-05-01"
   description: "(FAO) Celebrating a Quarter of Century of Responsible Fisheries and Aquaculture: Sustainable and resource efficient examples of desert aquaculture from the GCC countries, following the Code of Conduct for Responsible Fisheries (CCRF)."
-  organization: FAO
+  organization: fao
   organization_url: https://www.aitaquaculture.org/news/20/01.jpg
   title: 'Aquaculture in the desert: the example of GCC countries'
   url: ""
