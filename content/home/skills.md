@@ -25,14 +25,14 @@ feature:
   icon_pack: fas
   name: Molecular biology
   
-- description: Statistics<br>Data visualization<br>(ggplot2, ggpubr, dplyr, tidyverse, plotly)<br>Package vignette<br>Markdown<br>Blogdown<br>Shiny$$TinyTeX$$<br>
+- description: Statistics<br>Data visualization<br>(ggplot2, ggpubr, dplyr, tidyverse, plotly)<br>Package vignette<br>Markdown<br>Blogdown<br>Shiny$$TinyTeX$$ High-Dimensional Data Analysis <br>Linear Models and Matrix Algebra
   icon: r-project
   icon_pack: fab
   name: R Studio
-- description: Classical statistics <br> Inference statistics <br> Bayes
+- description: Probability <br> Inference and Modeling <br> Data Wrangling <br> Exploratory Data Analysis <br> Linear Regression <br> Machine Learning
   icon: chart-line
   icon_pack: fas
-  name: Statistics
+  name: Data Science
 - description: Recirculating Aquaculture Systems<br>Aquaponics systems<br>Biofloc systems<br>Hatchery technologies<br>Catfish farming<br>Carp farming<br>Tilapia farming<br>Shrimp farming<br>Seafood business<br>Fish nutrition<br>Feed formulation design<br>Farm design<br>Sustainable aquaculture and SDGs
   icon: fish
   icon_pack: fas
