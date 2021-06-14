@@ -32,28 +32,27 @@ address:
 coordinates:
   latitude: '14.078743'
   longitude: '100.611227'
-directions: With the COVID Outbreak mobility restrictions, I work from home.
+directions: I work from home.
 office_hours:
   - 'Monday-Friday 10:00 to 18:00'
-appointment_url: 'https://calendly.com'
 contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
-
+    - icon: github
+      name: Github
+      icon_pack: fab
+      url: https://github.com/Isoris
+    - icon: linkedin-in
+      name: Linked-in
+      icon_pack: fab
+      url: https://www.linkedin.com/in/quentinandres/
+    - icon: facebook
+      name: Facebook
+      icon_pack: fab
+      link: https://www.facebook.com/Quentin1943
+    - icon: instagram
+      name: Instagram
+      icon_pack: fab
+      link: https://www.instagram.com/quentinzepam/
+      
 # Site header
 
 main_menu:
