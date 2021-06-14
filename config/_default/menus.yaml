@@ -7,21 +7,12 @@ main:
   - name: About me
     url: '#about'
     weight: 10
-  - name: Projects
-    url: '#projects'
-    weight: 60
-  - name: Courses 
-    url: courses/
-    weight: 20
-  - name: Posts
-    url: '#posts'
-    weight: 40
   - name: Publications
     url: '#featured'
     weight: 50
   - name: Contact
     url: '#contact'
-    weight: 70
-  - name: Gallery
-    url: "#gallery"
     weight: 65
+  - name: My blog
+    url: "https://qwentee.netlify.app/"
+    weight: 100

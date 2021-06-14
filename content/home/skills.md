@@ -16,7 +16,7 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: Applied bioinformatics<br>R - Bioconductor<br>Trinity<br>Data transformation<br>Genome browsing<br>Genome mapping<br> In silico cloning
+- description: Applied bioinformatics<br>Genome browsing<br>In silico cloning
   icon: dna
   icon_pack: fas
   name: Genomics
@@ -25,11 +25,11 @@ feature:
   icon_pack: fas
   name: Molecular biology
   
-- description: Statistics<br>Data visualization<br>(ggplot2, ggpubr, dplyr, tidyverse, plotly)<br>Package vignette<br>Markdown<br>Blogdown<br>Shiny$$TinyTeX$$ High-Dimensional Data Analysis <br>Linear Models and Matrix Algebra
+- description: Statistics<br>Data visualization<br>(ggplot2, ggpubr, dplyr, tidyverse, plotly)<br>Markdown<br>Blogdown<br>Shiny$$TinyTeX$$  <br>Linear Models and Matrix Algebra
   icon: r-project
   icon_pack: fab
   name: R Studio
-- description: Probability <br> Inference and Modeling <br> Data Wrangling <br> Exploratory Data Analysis <br> Linear Regression <br> Machine Learning
+- description: Inference and Modeling <br> Data Wrangling <br> Exploratory Data Analysis <br> Linear Regression 
   icon: chart-line
   icon_pack: fas
   name: Data Science

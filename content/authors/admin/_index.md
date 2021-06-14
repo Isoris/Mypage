@@ -30,21 +30,15 @@ organizations:
   url: https://www.aitaquaculture.org/
 role: Msc Student in Aquaculture and Aquatic Resources Management 
 social:
-- icon: envelope
+- display:
+    header: true
+  icon: blog
   icon_pack: fas
-  link: /#contact
+  label: Access my website
+  link: https://qwentee.netlify.app/
 - icon: envelope
   icon_pack: far
   link: /#contact
-- display:
-    header: true
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: 
-- icon: graduation-cap
-  icon_pack: fas
-  link: 
 - icon: discord
   icon_pack: fab
   link: https://discord.com/users/Quentin#3949
@@ -66,4 +60,4 @@ title: Quentin Andres
 
 I am looking for a PhD position in the field of aquaculture. I would like to make my own research contribution towards aquaculture genomics. I am currently in Thailand working on my master thesis. My research project's objective is to develop a *Proof of Concept of an in vitro transcribed mRNA vaccine against Carp Edema Virus Disease using a low-cost experimental design* (June 2021 - May 2022)
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Resume_Quentin_ANDRES.pdf" "newtab" >}}resumé{{< /staticref >}}.
