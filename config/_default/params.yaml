@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: custom
 day_night: true
 font: 'traditional serif'
 font_size: L
@@ -16,7 +16,7 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-
+twitter: ''
 
 # Contact (edit or remove options as required)
 

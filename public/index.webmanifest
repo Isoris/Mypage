@@ -2,8 +2,8 @@
   "name": "Welcome",
   "short_name": "Welcome",
   "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "theme_color": "#205072",
+  "background_color": "#205072",
   "icons": [{
     "src": "/media/icon_hua60a2e338bce91eb6fcbce818f266eea_65643_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
