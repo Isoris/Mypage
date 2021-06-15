@@ -36,6 +36,10 @@ directions: I work from home.
 office_hours:
   - 'Monday-Friday 10:00 to 18:00'
 contact_links:
+    - icon: blog
+      icon_pack: fas
+      label: Access my website
+      link: https://qwentee.netlify.app/
     - icon: github
       name: Github
       icon_pack: fab

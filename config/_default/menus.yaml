@@ -16,3 +16,6 @@ main:
   - name: My blog
     url: "https://qwentee.netlify.app/"
     weight: 100
+  - name: Projects
+    url: "https://qwentee.netlify.app/project/"
+    weight: 110
