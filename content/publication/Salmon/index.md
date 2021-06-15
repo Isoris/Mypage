@@ -27,7 +27,7 @@ url_dataset: ""
 url_pdf: "/media/TriploidSalmonQuentin_ANDRES.pdf" 
 url_poster: ""
 url_project: ""
-url_slides: "/media/ThetriploidAtlanticsalmon.pptx"
+url_slides: ""
 url_source: ""
 url_video: ""
 ---
