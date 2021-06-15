@@ -38,7 +38,7 @@ office_hours:
 contact_links:
     - icon: blog
       icon_pack: fas
-      label: Access my website
+      name: Access my website
       link: https://qwentee.netlify.app/
     - icon: github
       name: Github
