@@ -168,7 +168,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 -   **Bioprocessing**: Protein purification, chromatogrpahy
 
 #### 🧪 Fundamental Lab Skills
--   **Animal**: Eukaryotic cell culture and viability assays (MTT) and Trypan blue assay, transfections in HEK 293 and other cells.
+-   **Animal**: Eukaryotic cell culture and viability assays (MTT) and trypan blue assay, transfections in HEK 293 and other cells.
 
 #### 📊 Analytics
 
