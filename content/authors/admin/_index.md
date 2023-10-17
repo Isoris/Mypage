@@ -96,7 +96,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 -   **Submissions to public health databases**: Submitted my results to NCBI under the bioproject number *PRJNA933632* (Currently private, five Biosamples with sequencing reads and GenBank assemblies will soon be released..).
 
-    #### Aquatic Animal Vaccines
+#### Aquatic Animal Vaccines
 
 -   **Inactivated vaccines**: Developed and evaluted oral-oil-encapsulated and immersion monovalent and bivalent vaccines for *Streptococcus agalactiae* and *Aeromonas veronii* for Nile tilapia. Found that for those formulations specifically, immersion was more effective in conferring protective efficacy for a few months and that oral vaccines were more appropriate to be given as a booster after primer vaccination.
 
@@ -170,7 +170,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 #### 🐁/🐟 In-vivo Studies
 
 -   **Basic toxicology**: Histopathology, basics of animal physiology. Familiarity with aquatic animals mucosal and systemic immune responses.
--   **Basic immunology and analytics**: Experience in Blood Count, Serum Preparation, and Survival Challenges for immunological assays and screenings in fish.
+-   **Basic immunology and analytics**: Experience in blood count, serum preparation, and survival challenges for immunological assays and screenings in fish.
 -   **Functional Renal Exploration**: Experience with rat models to study renal functions. Techniques involved: jugular and carotid cannulation. Used various substances including inuline, mannitol, and furosemide.
 
 #### 📜 Regulatory and Pharmaceutical Development
@@ -191,7 +191,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 #### 🎯 I am focused on advancing the fields of aquaculture genomics and aquatic health management.
 
-[Download My Résumé]().
+[Download My Résumé](). (*coming soon..*)
 
 👉 Feel free to [📩 email](mailto:quentin.ls.andres@gmail.com) me for collaborations or discussions.
 

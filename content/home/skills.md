@@ -16,17 +16,17 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: In-silico cloning (DNA Cauldron)<br>PyDNA<br>Snapgene<br>Benchling<br>PCR<br>In-vivo assembly cloning<br>Golden Gate Assembly cloning<br>Separation of DNA by gel-electrophoresis
+- description: In-silico cloning (DNA Cauldron)<br>PyDNA<br>Snapgene<br>NEB Golden Gate Tool<br>Benchling<br>PCR<br>In-vivo assembly cloning<br>Golden Gate Assembly cloning<br>Separation of DNA by gel-electrophoresis
   icon: circle-notch
   icon_pack: fas
   name: Molecular Biology (cloning)
   
-- description: Purification of nucleic acid sequences (gDNA)<br>Purification of nucleic acid sequences (pDNA)<br>Recombination & mutagenesis<br>Transcriptional fusions<br>Bacterial transformations<br>DNA probe hybridization on nitrocellulose membrane<br>qRT-PCR<br>qPCR
+- description: Purification of nucleic acid sequences (gDNA)<br>Purification of nucleic acid sequences (pDNA)<br>Purification of nucleic acid sequences (RNA)<br>Recombination & mutagenesis<br>Transcriptional fusions<br>Bacterial transformations<br>DNA probe hybridization on nitrocellulose membrane<br>qRT-PCR<br>qPCR
   icon: dna
   icon_pack: fas
   name: Molecular Biology of Nucleic Acids
   
-- description: Preparation of *E. coli* culture media<br>Gram-Staining<br>Bacterial transformations<br>Cellular culture (animal)<br>MTT Assay<br>Trypan blue assay<br>Transfection<br>Propidium Iodide assay<br>Fluorescence microscopy<br>Confocal microscopy
+- description: Preparation of *E. coli* culture media<br>Gram-staining<br>Bacterial transformations<br>Cellular culture (animal)<br>MTT Assay<br>Trypan blue assay<br>Transfection<br>Propidium Iodide assay<br>Fluorescence microscopy<br>Confocal microscopy
   icon: microscope
   icon_pack: fas
   name: Microbiology and Cell Biology
