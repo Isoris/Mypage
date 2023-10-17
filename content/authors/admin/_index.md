@@ -93,7 +93,8 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 #### Whole Genome Assembly
 
 -   **New Generation Sequencing**: Performed whole genome assembly of *Streptococcus iniae* isolates from diseased-farmed Asian seabass fish.
-
+-   **Technologies**: I can assemble both Illumina PE short-reads and long sequencing reads (PacBio or Nanopore).
+-   **Methodologies**: Single reference mapping, de-novo assembly, reference-guided de-novo assembly, multiple reference mapping directly onto pangenome graphs.
 -   **Submissions to public health databases**: Submitted my results to NCBI under the bioproject number *PRJNA933632* (Currently private, five Biosamples with sequencing reads and GenBank assemblies will soon be released..).
 
 #### Aquatic Animal Vaccines
@@ -158,10 +159,10 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 #### 🔬 Molecular Techniques
 
--   **Molecular Biology** Skilled in various cloning techniques such as Transfection and Transformation, IVA Cloning, and Golden Gate Assembly. Experienced in DNA Gel-Electrophoresis for molecular separation.
+-   **Molecular Biology** Skilled in various cloning techniques such as transfection and transformation, IVA Cloning, and Golden Gate Assembly. Experienced in DNA Gel-Electrophoresis for molecular separation.
 -   **Proteomics**: Western Blotting (WB), SDS-PAGE, Non-reducing Capillary Gel Electrophoresis (CGE)
 -   **Bioprocessing**: Protein purification, chromatogrpahy
--   **Basic lab**: Eukaryotic cell culture and viability assays (MTT), transfections in HEK 293 and other cells.
+-   **Basic lab**: Eukaryotic cell culture and viability assays (MTT) and Trypan blue assay, transfections in HEK 293 and other cells.
 
 #### 📊 Analytics
 
