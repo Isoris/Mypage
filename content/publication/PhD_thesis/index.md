@@ -24,10 +24,10 @@ tags:
 title: "PhD Thesis - Efficacy and Immunogenicity of Vaccines Made from Recombinant Protein and Plasmid DNA Technologies for the Prevention of Diseases Caused by *Streptococcus iniae* in Asian Seabass (*Lates calcarifer*)"
 url_code: ""
 url_dataset: ""
-url_pdf: "./media/Presentation_progress_report_october_2023_final.pdf" 
+url_pdf: "" 
 url_poster: ""
 url_project: ""
-url_slides: "./media/Presentation_progress_report_october_2023_final.pdf"
+url_slides: ""
 url_source: ""
 url_video: ""
 ---

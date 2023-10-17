@@ -22,9 +22,9 @@ tags:
 - Firmicutes
 title: "Comparative Genomics and Reverse Vaccinology of Streptococcus iniae: Blueprints for Affordable Aquaculture Vaccines"
 url_code: ''
-url_dataset: 'https://docs.google.com/spreadsheets/d/1QspwcPOd5ofd2VxcqN3HDxLxYH2fn6oQZoKD37wH60A/edit?usp=sharing'
-url_pdf: "./media/Comparative_Genomics_Streptococcus_iniae_2023.pdf"
-url_slides: "./media/Comparative_Genomics_Streptococcus_iniae_2023.pdf"
+url_dataset: ''
+url_pdf: ""
+url_slides: ""
 ---
 
-{{% callout note %}} The research paper is still a draft in the progress of writing. To access to the draft paper - click the *PDF*  button above and click *Download* to open. {{% /callout %}}
+{{% callout note %}} The research paper is still a draft in the progress of writing. To access to the paper - click the *PDF*  button above and click *Download* to open. {{% /callout %}}
