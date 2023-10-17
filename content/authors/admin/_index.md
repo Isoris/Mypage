@@ -108,14 +108,14 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 #### Production of Biomolecules
 
--   **Research Objectives**: Compared eukaryotic and prokaryotic vectors for recombinant GFP and B-galactosidase production, as part of a team.
+-   **Research Objectives**: Compared eukaryotic and prokaryotic vectors for recombinant GFP and B-galactosidase expression.
 -   **Cellular Models**: HEK 293 immortalized cells vs *Escherichia coli* K-12 strain with T7RNAP+ capabilities).
 -   **Specific Activity, Qualitative and Quantitative Measurements**: Employed fluorescence microscopy and plate reader for fluorescence measurements, BSA for protein quantification, SDS-PAGE for protein quality, and indirect enzymatic assays using HRP for color development.
 
 #### Cellular Signaling and Apoptosis
 
 -   **Research Objective**: Explored apoptosis mechanisms and cellular signaling pathways, as part of a team.
--   **Cellular Models**: Utilized the Drosophila S2R+ cell line and HEK immortalized cells.
+-   **Cellular Models**: Utilized the Drosophila S2R+ cell line.
 -   **Cell Growth & Survival**: Monitored using cell counting to ensure adaptability to laboratory conditions.
 -   **Transfection Efficacy**: Evaluated using Effectene transfection reagent on S2R+ cells, incorporating both an empty vector and a GFP-containing expression vector.
 -   **Induction of Apoptosis and Necrosis**: Facilitated by the addition of staurosporine to the cell culture medium; optimized the concentration range for apoptosis induction.
