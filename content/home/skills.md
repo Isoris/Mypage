@@ -127,7 +127,7 @@ feature:
   name: R Suite and R Studio
 
   
-- description: Recirculating Aquaculture Systems<br>Aquaponics systems<br>Biofloc systems<br>Hatchery technologies<br>Catfish farming<br>Carp farming<br>Tilapia farming<br>Shrimp farming<br>Seafood business<br>Fish nutrition<br>Feed formulation design<br>Farm design<br>Sustainable aquaculture and SDGs
+- description: I am familiar with those topics to a certain point and have ever raised juveniles and adult Nile Tilapia during vaccine trials <br><br>Recirculating Aquaculture Systems<br>Aquaponics systems<br>Biofloc systems<br>Hatchery technologies<br>Catfish farming<br>Carp farming<br>Tilapia farming<br>Shrimp farming<br>Seafood business<br>Fish nutrition<br>Feed formulation design<br>Farm design<br>Sustainable aquaculture and SDGs
   icon: fish
   icon_pack: fas
   name: Aquaculture
