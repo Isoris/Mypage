@@ -55,7 +55,8 @@ social:
 
 My thesis is organized into multiple facets, including:
 
--   🧬 Low-cost vaccine manufacturing for aquaculture
+-   🧬 Low-cost vaccine manufacturing for aquaculture (recombinant platform)
+-   🧬 Low-cost vaccine manufacturing for aquaculture (pDNA platform)
 -   💻 Comparative genomics of *Streptococcus iniae*
 -   🧪 Reverse vaccinology coupled with bacterial pan-genomics
 -   🌡  Vaccine design, purification, and efficacy evaluation
