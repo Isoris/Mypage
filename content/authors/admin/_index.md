@@ -161,12 +161,14 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 -	Mostly using Linux for applied bioinformatics, development and data analysis.
 
-#### 🔬 Molecular Techniques
+#### 🔬 Molecular Techniques and Microbiology
 
--   **Molecular Biology** Skilled in various cloning techniques such as transfection and transformation, IVA Cloning, and Golden Gate Assembly. Experienced in DNA Gel-Electrophoresis for molecular separation.
+-   **Molecular Biology** Skilled in various cloning techniques such as bacterial transformation, IVA Cloning, and Golden Gate Assembly. Experienced in DNA Gel-Electrophoresis for molecular separation.
 -   **Proteomics**: Western Blotting (WB), SDS-PAGE, Non-reducing Capillary Gel Electrophoresis (CGE)
 -   **Bioprocessing**: Protein purification, chromatogrpahy
--   **Basic lab**: Eukaryotic cell culture and viability assays (MTT) and Trypan blue assay, transfections in HEK 293 and other cells.
+
+#### 🧪 Fundamental Lab Skills
+-   **Animal**: Eukaryotic cell culture and viability assays (MTT) and Trypan blue assay, transfections in HEK 293 and other cells.
 
 #### 📊 Analytics
 
