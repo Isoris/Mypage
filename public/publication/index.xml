@@ -5,12 +5,38 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Quentin ANDRES 2021</copyright><lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Quentin ANDRES 2021</copyright><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua60a2e338bce91eb6fcbce818f266eea_65643_512x512_fill_lanczos_center_2.png</url>
+      <url>/publication/featured.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Comparative Genomics and Reverse Vaccinology of Streptococcus iniae: Blueprints for Affordable Aquaculture Vaccines</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The research paper is still a draft in the progress of writing.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhD Thesis - Efficacy and Immunogenicity of Vaccines Made from Recombinant Protein and Plasmid DNA Technologies for the Prevention of Diseases Caused by *Streptococcus iniae* in Asian Seabass (*Lates calcarifer*)</title>
+      <link>/publication/phd_thesis/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/phd_thesis/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Polyploid fish - Principles, Importance and Applications in main marine aquaculture species</title>
@@ -35,20 +61,6 @@
     To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
   &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

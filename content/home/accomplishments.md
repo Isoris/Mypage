@@ -23,14 +23,36 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2020-11-25"
-  description: "by Johns Hopkins University"
+- certificate_url: https://www.coursera.org/learn/statistical-inference
+  date_end: ""  # Fill in the date of completion or leave empty if ongoing
+  date_start: "2020-11-25"  # Replace with the actual start date
+  description: |2-
+      by Johns Hopkins University
+      Instructors: Brian Caffo, PhD, Roger D. Peng, PhD, Jeff Leek, PhD
+      Part of multiple programs
+      Skills Gained:
+        - Probability & Statistics
+        - Statistical Programming
+        - General Statistics
   organization: Coursera
-  organization_url: https://www.coursera.org/learn/statistical-inference
+  organization_url: https://www.coursera.org
   title: Statistical Inference
   url: ""
+- certificate_url: https://www.coursera.org/learn/dna-sequencing
+  date_end: ""  # Fill in the date of completion or leave empty if ongoing
+  date_start: "2023-01-01"  # Replace with the actual start date
+  description: |2-
+      by Johns Hopkins University
+      Part of the Genomic Data Science Specialization
+      Skills Gained:
+        - Algorithms
+        - Bioinformatics
+        - Computer Programming
+        - Python Programming
+  organization: Coursera
+  organization_url: https://www.coursera.org
+  title: Algorithms for DNA Sequencing
+  url: "https://www.coursera.org/learn/dna-sequencing"
 - certificate_url: https://www.edx.org
   date_end: ""
   date_start: "2021-03-01"

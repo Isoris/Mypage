@@ -20,26 +20,26 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: Quentin.Andres@ait.ac.th
-phone: 
-address:
-  street: Asian Institute of Technology, 3rd Street
-  city: Pathumthani
-  region: Pathum Thani Province
-  postcode: '12121'
+email: quentin.ls.andres@gmail.com
+phone: +66855167216
+address: 
+  street: "50 ถนน งามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900"
+  city: Bangkok
+  region: Bangkok Province
+  postcode: '12100'
   country: Thailand
   country_code: TH
 coordinates:
-  latitude: '14.078743'
-  longitude: '100.611227'
-directions: I work from home.
+  latitude: '13.848172'
+  longitude: '100.5696147'
+directions: I work from office and from home.
 office_hours:
-  - 'Monday-Friday 10:00 to 18:00'
+  - 'Not fixed, Monday-Friday 10:00 to 18:00'
 contact_links:
     - icon: blog
       icon_pack: fas
       name: Access my website
-      link: https://qwentee.netlify.app/
+      link: https://qwenteen.netlify.app/
     - icon: github
       name: Github
       icon_pack: fab
@@ -48,14 +48,6 @@ contact_links:
       name: Linked-in
       icon_pack: fab
       url: https://www.linkedin.com/in/quentinandres/
-    - icon: facebook
-      name: Facebook
-      icon_pack: fab
-      link: https://www.facebook.com/Quentin1943
-    - icon: instagram
-      name: Instagram
-      icon_pack: fab
-      link: https://www.instagram.com/quentinzepam/
       
 # Site header
 
@@ -111,6 +103,7 @@ copyright_license:
   notice: 'This work is licensed under {license}'
 abstract_length: 135
 plugins_js: []
+font_awesome: 5
 avatar:
   gravatar: false
   shape: circle

@@ -29,7 +29,7 @@ module:
 ############################
 ## ADVANCED
 ############################
-
+font_awesome: 5
 enableGitInfo: false
 summaryLength: 30
 paginate: 10

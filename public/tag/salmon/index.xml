@@ -5,12 +5,25 @@
     <link>/tag/salmon/</link>
       <atom:link href="/tag/salmon/index.xml" rel="self" type="application/rss+xml" />
     <description>Salmon</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Quentin ANDRES 2021</copyright><lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Quentin ANDRES 2021</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua60a2e338bce91eb6fcbce818f266eea_65643_512x512_fill_lanczos_center_2.png</url>
       <title>Salmon</title>
       <link>/tag/salmon/</link>
     </image>
+    
+    <item>
+      <title>PhD Thesis - Efficacy and Immunogenicity of Vaccines Made from Recombinant Protein and Plasmid DNA Technologies for the Prevention of Diseases Caused by *Streptococcus iniae* in Asian Seabass (*Lates calcarifer*)</title>
+      <link>/publication/phd_thesis/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/phd_thesis/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Polyploid fish - Principles, Importance and Applications in main marine aquaculture species</title>
