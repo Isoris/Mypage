@@ -148,7 +148,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 #### 👨‍💻 Programming Languages
 
--   Proficient in data manipulation, analytics, and bioinformatics scripting using Bash, R, and Python. Some experience in Perl.  
+-   Proficient in data manipulation, analytics, github for control version, and bioinformatics scripting using Bash, R, and Python. Some experience in Perl.  
 
 ``` plaintext
   Experience Levels  
@@ -157,6 +157,9 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
    🟩🟩🟩🟨🟨 Python  
    🟩🟩🟨🟨🟨 Perl 
 ```
+#### 🐧 Operating System
+
+-	Mostly using Linux for applied bioinformatics, development and data analysis.
 
 #### 🔬 Molecular Techniques
 
