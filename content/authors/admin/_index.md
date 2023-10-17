@@ -125,7 +125,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 
 -   **Research Objective**: Investigated the regulatory mechanisms of blood vessel diameter, as part of a team.
 -   **Model Used**: Isolated ring of aorta from a rat.
--   **Agents Administered**: KCl, verapamil, IsoprotÃ©rÃ©nol, phenylephrine, various concentrations of NA, and prazosin.
+-   **Agents Administered**: KCl, verapamil, Isoprotérénol, phenylephrine, various concentrations of NA (noradrénaline), and prazosin.
 -   **Key Insights**: Recorded variations in vessel diameter in response to administration of agents affecting calcium ion channels and hormonal activity.
 
 #### Plant Biology
