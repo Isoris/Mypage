@@ -93,9 +93,9 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
 #### Whole Genome Assembly
 
 -   **New Generation Sequencing**: Performed whole genome assembly of *Streptococcus iniae* isolates from diseased-farmed Asian seabass fish.
--   **Technologies**: I can assemble both Illumina PE short-reads and long sequencing reads (PacBio or Nanopore).
+-   **Technologies**: Illumina PE short-reads and long sequencing reads (PacBio or Nanopore).
 -   **Methodologies**: Single reference mapping, de-novo assembly, reference-guided de-novo assembly, multiple reference mapping directly onto pangenome graphs.
--   **Submissions to public health databases**: Submitted my results to NCBI under the bioproject number *PRJNA933632* (Currently private, five Biosamples with sequencing reads and GenBank assemblies will soon be released..).
+-   **Submissions to public health databases**: Submitted my results to NCBI under the bioproject number *PRJNA933632* (Currently private, five Biosamples with short sequencing reads and GenBank assemblies will soon be released..).
 
 #### Aquatic Animal Vaccines
 
