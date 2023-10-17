@@ -27,4 +27,4 @@ url_pdf: "./media/Comparative_Genomics_Streptococcus_iniae_2023.pdf"
 url_slides: "./media/Comparative_Genomics_Streptococcus_iniae_2023.pdf"
 ---
 
-{{% callout note %}} The research paper is still a draft in the progress of writing. {{% /callout %}}
+{{% callout note %}} The research paper is still a draft in the progress of writing. To access to the draft paper - click the *PDF*  button above and click *Download* to open. {{% /callout %}}

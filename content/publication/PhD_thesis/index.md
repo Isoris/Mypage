@@ -32,5 +32,5 @@ url_source: ""
 url_video: ""
 ---
 
-{{% callout note %}} To access to the paper - click the *PDF*  button above. {{% /callout %}}
+{{% callout note %}} To access to the paper - click the *PDF*  button above and click *Download* to open. {{% /callout %}}
 
