@@ -36,7 +36,7 @@ feature:
   icon_pack: fas
   name: Molecular biology of Proteins
 
-- description: RefSeq<br>UniprotKB<br>RegulonDB<br>VICTORS<br>VFDB<br>PATRIC<br>Immune Epitope Database (IEDB)<br>NCBI<br>EBI<br>GenBank
+- description: RefSeq<br>UniprotKB<br>RegulonDB<br>VICTORS<br>VFDB<br>PATRIC<br>Immune Epitope Database (IEDB)<br>NCBI<br>EBI<br>GenBank<br>Ensembl
   icon: database
   icon_pack: fas
   name: Biological Databases
@@ -96,7 +96,7 @@ feature:
   icon_pack: fas
   name: Protein Annotations
   
-- description: Circos<br>R Suite<br>GNU parallel
+- description: Circos<br>R Suite<br>Bioconductor<br>GNU parallel
   icon: chart-pie
   icon_pack: fas
   name: Other Tools
