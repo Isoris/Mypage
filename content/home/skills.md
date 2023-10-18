@@ -46,7 +46,7 @@ feature:
   icon_pack: fas
   name: Communications With Biological Databases
   
-- description: Kraken2<br>SeqAdapt<br>SeqPurge<br>Trimmomatic<br>Awk<br>seqtk<br>FastQC<br>QUAST
+- description: Kraken2<br>SeqAdapt<br>SeqPurge<br>Trimmomatic<br>Awk<br>seqtk<br>FastQC<br>QUAST<br>Bandage
   icon: check-circle
   icon_pack: fas
   name: Quality Control and Read Preparation
