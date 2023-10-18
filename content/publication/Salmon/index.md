@@ -13,7 +13,7 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2021-05-01T00:00:00Z"
-summary: Summary presentation on the triploid atlantic salmon
+summary: A small summary presentation on the biology of triploid Atlantic salmons
 tags:
 - Aquaculture
 - Hybridization
@@ -21,7 +21,7 @@ tags:
 - Polyploid fish
 - Salmon
 - Triploidy
-title: Triploid atlantic salmon
+title: Triploidy in Atlantic Salmons
 url_code: ""
 url_dataset: ""
 url_pdf: "/media/TriploidSalmonQuentin_ANDRES.pdf" 
