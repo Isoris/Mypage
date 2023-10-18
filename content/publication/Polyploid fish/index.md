@@ -7,7 +7,7 @@ authors:
 - admin
 - Jaynos Cortes
 date: "2021-05-25T00:00:00Z"
-featured: true
+featured: false
 image:
   focal_point: ""
   preview_only: false
