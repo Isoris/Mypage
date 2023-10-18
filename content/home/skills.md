@@ -26,7 +26,7 @@ feature:
   icon_pack: fas
   name: Molecular Biology of Nucleic Acids
   
-- description: Preparation of *E. coli* culture media<br>Gram-staining<br>Bacterial transformations<br>Cellular culture (animal)<br>MTT Assay<br>Trypan blue assay<br>Transfection<br>Propidium Iodide assay<br>Fluorescence microscopy<br>Confocal microscopy
+- description: Preparation of culture media for *Escherichia coli*<br>Gram-staining<br>Bacterial transformations<br>Cellular culture (animal)<br>MTT Assay<br>Trypan blue assay<br>Transfection<br>Propidium Iodide assay<br>Fluorescence microscopy<br>Confocal microscopy
   icon: microscope
   icon_pack: fas
   name: Microbiology and Cell Biology
@@ -96,12 +96,12 @@ feature:
   icon_pack: fas
   name: Protein Annotations
   
-- description: Circos<br>R Suite<br>Bioconductor<br>GNU parallel
+- description: Circos<br>R Suite<br>Bioconductor<br>Github<br>GNU parallel
   icon: chart-pie
   icon_pack: fas
   name: Other Tools
 
-- description: Inference and Modeling <br> Data Wrangling <br> Exploratory Data Analysis <br> Linear Regression 
+- description: Understanding of data structures <br> Inference and Modeling <br> Data Wrangling <br> Exploratory Data Analysis <br> Linear Regression <br> Principal component analysis
   icon: chart-line
   icon_pack: fas
   name: Data Science
