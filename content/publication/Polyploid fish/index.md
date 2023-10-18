@@ -26,7 +26,7 @@ tags:
 - Polyploid fish
 - Salmon
 - Triploidy
-title: Polyploidy in fish - Principles, Importance and Applications in Main Marine Aquaculture Species
+title: Polyploidy in Fish - Principles, Importance and Applications in Main Marine Aquaculture Species
 url_code: ""
 url_dataset: ""
 url_pdf: "/media/MarineFishTriploidy.pdf" 
