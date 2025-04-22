@@ -1,80 +1,103 @@
----
-title: Quentin Andres
-role: Second Year PhD Candidate in Fisheries Science and Technology (International Program)
-bio: Specializing in aquaculture, molecular biology, genomics, and bioinformatics.
-email: "quentin.ls.andres@gmail.com"
-highlight_name: false
-organizations:
-  - name: Kasetsart University (KU) 🇹🇭
-    url: https://www.ku.ac.th/en/community-home
-  - name: Asian Institute of Technology (AIT) 🌏
-    url: https://www.aitaquaculture.org/
-  - name: University Côte d'Azur (UCA) 🇫🇷
-    url: https://univ-cotedazur.fr/formation/offre-de-formation/licence-sciences-de-la-vie-1#presentation
-superuser: true
-social:
-  - display:
-      header: true
-    icon: blog
-    icon_pack: fas
-    label: Access my academic page
-    link: https://qwenteen.netlify.app/
-  - icon: envelope
-    icon_pack: far
-    link: /#contact
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/Isoris
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/quentinandres/
----
-
-### Introduction
-
-👋 Hello! I'm Quentin Andres 👨‍💻, a second-year PhD candidate in Fisheries Science and Technology at Kasetsart University.
-
-👉 My research focuses on the intersection of aquatic animal health, molecular biology, and genomics. Specifically, I aim to develop sustainable and low-cost vaccines 💉 for aquaculture, with a current focus on *Streptococcus iniae* 🦠 affecting Asian seabass 🐟. The methodologies I employ have potential applicability to a wider range of aquatic vertebrates and bacterial pathogens.
-
-#### 🎓 Educational Background
-
--   **Doctoral Program**: Fisheries Science and Technology, Kasetsart University (Ongoing)
--   **MSc**: Aquaculture and Aquatic Resources Management, Asian Institute of Technology
--   **BSc**: Life Sciences with a major in Molecular and Genetic Biology (BMG), University Côte d'Azur
--   **Baccalauréat**: Major in Life Sciences and Physics, Lycée Jacques Audiberti
-
-#### 🔬 **Research Focus**
-
-1.  Development of Recombinant and Plasmid DNA Vaccines for *Streptococcus iniae*
-2.  Utilization of Quality by Design (QbD) to Streamline Aquaculture Vaccine Manufacturing
-3.  Multifaceted Approaches in Bacterial Epidemiology, Pan-genomics, and Reverse Vaccinology
-
-------------------------------------------------------------------------
-
-### 📚 Current Research
-
-My thesis is organized into multiple facets, including:
-
--   🧬 Low-cost vaccine manufacturing for aquaculture (recombinant platform)
--   🧬 Low-cost vaccine manufacturing for aquaculture (pDNA platform)
--   💻 Comparative genomics of *Streptococcus iniae*
--   🧪 Reverse vaccinology coupled with bacterial pan-genomics
--   🌡  Vaccine design, purification, and efficacy evaluation
-
-🔎 The initial phase of my research was conducted under the Laboratory of Aquatic Animal Health Management and the Center of Excellence in Aquatic Animal Health Management, both housed within the Faculty of Fisheries at Kasetsart University.
-
-📝 My first research article,"Comparative Genomics and Reverse Vaccinology of Streptococcus iniae: Blueprints for Affordable Aquaculture Vaccines," introduces a novel framework for more affordable vaccines by integrating epidemiology, pan-genomics, and reverse vaccinology, coupled with Quality By Design (QbD) principles and will soon be published..
-
-------------------------------------------------------------------------
-
-### 🎯 Research and Academic Interests
-
--   Aquatic Animal Health
--   Bacterial and Microbial Genomics
--   Sustainable Vaccine Development
--   Bioinformatics and Data Science
--   Green Bioprocessing Technologies
-
+  ---
+  title: Quentin Andres
+  role: Bioinformatics Specialist | PhD-Level Experience
+  bio: Specializing in aquaculture, molecular biology, genomics, bioinformatics, and vaccine development.
+  email: "quentin.ls.andres@gmail.com"
+  highlight_name: false
+  organizations:
+    - name: Kasetsart University (KU) 🇹🇭
+      url: https://www.ku.ac.th/en/community-home
+    - name: Asian Institute of Technology (AIT) 🌏
+      url: https://www.aitaquaculture.org/
+    - name: University Côte d'Azur (UCA) 🇫🇷
+      url: https://univ-cotedazur.fr/formation/offre-de-formation/licence-sciences-de-la-vie-1#presentation
+  superuser: true
+  social:
+    - display:
+        header: true
+      icon: blog
+      icon_pack: fas
+      label: Access my academic page
+      link: https://quentinandres.netlify.app/
+    - icon: envelope
+      icon_pack: far
+      link: /#contact
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/Isoris
+    - icon: linkedin
+      icon_pack: fab
+      link: https://www.linkedin.com/in/quentinandres/
+  ---
+  
+  ## 🎓 Educational Background
+  - **PhD Candidate** (Near Completion): Fisheries Science and Technology, **Kasetsart University**
+  - **MSc**: Aquaculture and Aquatic Resources Management, **Asian Institute of Technology**
+  - **BSc**: Life Sciences, Major in Molecular and Genetic Biology, **University Côte d'Azur**
+  
+  ## 📜 Upcoming Publications
+  1. **Haplotype-Resolved Chromosome-Scale Assembly of the Bighead Catfish (*Clarias macrocephalus*) Genome**  
+     *High-quality genome assembly for improved genetic insights in aquaculture species.*  
+  2. **Dual Reference Genomes from F1 Hybrids: Phased Assembly of North African Catfish and Bighead Catfish with Hi-C Data**  
+     *Advancing hybrid genome assembly methods for aquaculture species using Hi-C sequencing.*  
+  3. **Comparative Genomics, DNA Sequencing and Reverse Vaccinology of *Streptococcus iniae***  
+     *Blueprints for Affordable Aquaculture Vaccines* (To be published).  
+  
+  ## 📚 Research Focus
+  My work bridges aquatic animal health, molecular biology, bioinformatics, and vaccine innovation. Over the past three years, I have independently led and completed projects in:
+  
+  - Genome assembly of **five isolates** of *Streptococcus iniae* from infected Asian seabass.
+  - Comparative **pangenomic analysis** of multiple *Streptococcus* species.
+  - **Transposable element (TE)** analysis in Bighead and hybrid catfish genomes.
+  - Assembly and phasing of **F1 hybrid fish genomes** using HiFi, Nanopore, and Hi-C data.
+  - Design and evaluation of **recombinant, plasmid DNA, and inactivated vaccines** for *Streptococcus iniae* and *S. agalactiae*.
+  - Analysis of **fish immune responses** following vaccination (including heat-killed vaccine trials).
+  - Developer of **ScaffoldKit**, a modular and confidential rule-based pipeline for genome scaffolding and T2T genome curation.
+  My work bridges aquatic animal health, molecular biology, bioinformatics, and vaccine innovation. Over the past three years, I have independently led and completed projects focused on genome assembly, comparative genomics, and the development of computational tools for variant analysis and vaccine discovery. My work supports both animal and human health, particularly through the transfer of insights from aquaculture pathogens to general microbial diagnostics and host-pathogen interaction research.
+  
+  - 🧬 **Microbial Genomics**: Assembled and analyzed **five genomes** of *Streptococcus iniae*, an aquatic pathogen with implications in zoonosis and fish farming. Conducted a **comparative pangenomic study** of multiple *Streptococcus* species to map core and accessory genomes.
+  - 🧬 **Transposable Element (TE) Analysis**: Characterized repetitive and mobile element profiles in **Bighead and hybrid catfish genomes** to understand structural genome dynamics in aquaculture species.
+  - 🦠 **Antimicrobial Resistance (AMR)**: Conducted comparative and pangenomic analyses to identify AMR genes in *Streptococcus*, contributing to public health surveillance models.
+  - 🐟 **Fish Genomics**:
+    - Completed **haplotype-resolved assembly** of **Bighead catfish** using multi-platform sequencing (PacBio HiFi, ONT, Hi-C).
+    - Developed **dual parental haplotype assemblies** for F1 **hybrid catfish**, a model for studying allodiploid genomics.
+  - 💉 **Vaccine Discovery and Immunoinformatics**:
+    - Applied **reverse vaccinology** workflows using genome annotation, signal peptide prediction, and MHC binding analyses for both *Streptococcus agalactiae* and *Streptococcus iniae*.
+    - Developed **recombinant, plasmid, and inactivated (heat-killed) vaccines** targeting key fish pathogens.
+    - Studied **fish immune responses** post-vaccination using histopathology, serological analysis, and challenge trials.
+  - 🔬 **Custom Toolkit Development**:
+    - Created **ScaffoldKit**, a modular and rule-based genome scaffolding pipeline for **telomere-to-telomere (T2T) genome assembly** (ongoing, confidential). Includes QV validation, evidence-based contig scoring, and graphical decision trees for manual or automated scaffolding.
+    - Utilization of Quality by Design (QbD) to Streamline Aquaculture Vaccine Manufacturing
+    - Multifaceted Approaches in Bacterial Epidemiology, Pan-genomics, and Reverse Vaccinology
+  My work bridges aquatic animal health, molecular biology, bioinformatics, and vaccine innovation. Over the past three years, I have independently led and completed projects focused on genome assembly, comparative genomics, and the development of computational tools for variant analysis and vaccine discovery. My work supports both animal and human health, particularly through the transfer of insights from aquaculture pathogens to general microbial diagnostics and host-pathogen interaction research.
+  
+  - 🧬 **Microbial Genomics**: Assembled and analyzed **five genomes** of *Streptococcus iniae*, an aquatic pathogen with implications in zoonosis and fish farming.
+  - 🦠 **Antimicrobial Resistance (AMR)**: Conducted comparative and pangenomic analyses to identify AMR genes in *Streptococcus*, contributing to public health surveillance models.
+  - 🐟 **Fish Genomics**:
+    - Completed **haplotype-resolved assembly** of **Bighead catfish** using multi-platform sequencing (PacBio HiFi, ONT, Hi-C).
+    - Developed **dual parental haplotype assemblies** for F1 **hybrid catfish**, a model for studying allodiploid genomics.
+  - 💉 **Vaccine Discovery and Immunoinformatics**:
+    - Applied reverse vaccinology workflows for _Streptococcus iniae_ using genome annotation, signal peptide prediction, and domain identification and identified 20 potential immunogens.
+    - Inactivated vaccines: Developed and evaluted oral-oil-encapsulated and immersion monovalent and bivalent vaccines for *Streptococcus agalactiae* and *Aeromonas veronii* for Nile tilapia. Found that for those formulations specifically, immersion was more effective in conferring protective efficacy for a few months and that oral vaccines were more appropriate to be given as a booster after primer vaccination.
+    - Designed DNA vaccine constructs for Golden Gate Assembly Level 1/2 Cloning based on pangenome comparisons.
+    - mRNA vaccines: Explored mRNA vaccine design and manufacturing against TiLV for Nile tilapia (Project stalled)
+  - 🔬 **Custom Toolkit Development**:
+    - Created **ScaffoldKit**, a rule-based genome scaffolding engine with support for QV validation, contig confidence scoring, and graphical evidence-based decision trees.
+  
+  ## 🛠️ Technical Summary
+  My daily work involved genome assembly, bacterial annotation, variant detection, and downstream analyses for diagnostic, evolutionary, and vaccine development purposes. This included coding in R, Bash, and Python; managing high-throughput sequencing datasets; performing quality control; and mapping reads against custom reference panels. I worked hands-on with protein purification techniques, developed low-cost vaccine prototypes, and coordinated multiple comparative genomics workflows to bridge aquaculture research with human health insights.
+  
+  ## 🔍 Research Highlights
+  ### 🐟 Bighead Catfish Genome (*Clarias macrocephalus*)
+  - Sequenced with **PacBio HiFi**, **Nanopore**, **Hi-C**, and **Illumina**
+  - Built a chromosome-scale haplotype-resolved genome: N50 = 35.4 Mb, BUSCO = 95.5%, QV ≈50
+  - **NCBI BioProject**: [PRJNA1121957](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1121957)
+  
+  ### 🐟 Hybrid Catfish Genome (F1 *C. macrocephalus* × *C. gariepinus*)
+  - Used **Hifiasm**, **Hi-C**, and **HapHiC** for diploid-aware phasing
+  - Generated two parental haplotypes across 55 chromosomes; BUSCO = 97%, recovery = 99.4%
+  - **NCBI BioProject**: [PRJNA115349](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA115349)
+  
 ------------------------------------------------------------------------
 
 ### 🤝 Let's connect
@@ -82,27 +105,6 @@ My thesis is organized into multiple facets, including:
 -   📩 [Email me](mailto:quentin.ls.andres@gmail.com) for collaborations or discussions.
 -   🌐 Find me on [LinkedIn](https://www.linkedin.com/in/quentinandres/)
 -   💻 Check out my [GitHub](https://github.com/Isoris) page.
-
-------------------------------------------------------------------------
-
-I'm committed to advancing the fields of aquaculture genomics and aquatic health management with focus on Asian aquaculture 🌏🎣.
-
-------------------------------------------------------------------------
-
-### 📝 Recent Student Research and Practical Experiences
-
-#### Whole Genome Assembly
-
--   **New Generation Sequencing**: Performed whole genome assembly of *Streptococcus iniae* isolates from diseased-farmed Asian seabass fish.
--   **Technologies**: Illumina PE short-reads and long sequencing reads (PacBio or Nanopore).
--   **Methodologies**: Single reference mapping, de-novo assembly, reference-guided de-novo assembly, multiple reference mapping directly onto pangenome graphs.
--   **Submissions to public health databases**: Submitted my results to NCBI under the bioproject number *PRJNA933632* (Currently private, five Biosamples with short sequencing reads and GenBank assemblies will soon be released..).
-
-#### Aquatic Animal Vaccines
-
--   **Inactivated vaccines**: Developed and evaluted oral-oil-encapsulated and immersion monovalent and bivalent vaccines for *Streptococcus agalactiae* and *Aeromonas veronii* for Nile tilapia. Found that for those formulations specifically, immersion was more effective in conferring protective efficacy for a few months and that oral vaccines were more appropriate to be given as a booster after primer vaccination.
-
--   **mRNA vaccines**: Explored mRNA vaccine design and manufacturing against TiLV for Nile tilapia (Project stalled)
 
 ------------------------------------------------------------------------
 
@@ -195,10 +197,7 @@ I'm committed to advancing the fields of aquaculture genomics and aquatic health
     -   [EMA Q&A Document EMA/CHMP/CVMP/QWP/586330/2010](https://www.ema.europa.eu/en/documents/scientific-guideline/questions-answers-post-approval-change-management-protocols_en.pdf)
 
 ------------------------------------------------------------------------
-
-#### 🎯 I am focused on advancing the fields of aquaculture genomics and aquatic health management.
-
-[Download My Résumé](). (*coming soon..*)
+#### 🎯 I am focused on advancing the Human well-being through Genomics.
 
 👉 Feel free to [📩 email](mailto:quentin.ls.andres@gmail.com) me for collaborations or discussions.
 
