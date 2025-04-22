@@ -16,30 +16,11 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-twitter: ''
-
-# Contact (edit or remove options as required)
-
-email: quentin.ls.andres@gmail.com
-phone: +66855167216
-address: 
-  street: "50 ถนน งามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900"
-  city: Bangkok
-  region: Bangkok Province
-  postcode: '12100'
-  country: Thailand
-  country_code: TH
-coordinates:
-  latitude: '13.848172'
-  longitude: '100.5696147'
-directions: I work from office and from home.
-office_hours:
-  - 'Not fixed, Monday-Friday 10:00 to 18:00'
 contact_links:
     - icon: blog
       icon_pack: fas
       name: Access my website
-      link: https://qwenteen.netlify.app/
+      link: https://quentinandres.netlify.app/
     - icon: github
       name: Github
       icon_pack: fab
@@ -96,13 +77,15 @@ section_pager: false
 docs_section_pager: true
 sharing: true
 copyright_license:
-  enable: false
+  enable: true
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
-plugins_js: []
+# Custom JavaScript
+plugins_js:
+  - carousel
 font_awesome: 5
 avatar:
   gravatar: false
@@ -120,11 +103,11 @@ breadcrumb:
 comments:
   provider: ''
   commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
+    post: false
+    book: false
+    project: false
+    publication: false
+    event: false
   disqus:
     shortname: ''
     show_count: true

@@ -1,0 +1,301 @@
+{{/* layouts/shortcodes/carousel.html with improved layout */}}
+<div class="portfolio-carousel" id="{{ .Get "id" | default "portfolio-carousel" }}">
+    <div class="carousel-container">
+        <div class="carousel-track">
+            {{- range split (.Get "images") "," -}}
+                <div class="carousel-slide">
+                    <div class="image-wrapper">
+                        <img src="{{ trim . " " }}" alt="{{ $.Get "alt" | default "Portfolio image" }}" loading="lazy">
+                    </div>
+                </div>
+            {{- end -}}
+        </div>
+    </div>
+    <div class="carousel-navigation">
+        <button class="carousel-control prev" aria-label="Previous slide">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
+            </svg>
+        </button>
+        <div class="carousel-indicators">
+            {{- $total := len (split (.Get "images") ",") -}}
+            {{- range $index, $_ := (split (.Get "images") ",") -}}
+                <button class="carousel-indicator{{ if eq $index 0 }} active{{ end }}"
+                   aria-label="Go to slide {{ add $index 1 }}"
+                   data-index="{{ $index }}"></button>
+            {{- end -}}
+        </div>
+        <button class="carousel-control next" aria-label="Next slide">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<style>
+/* Improved carousel styling */
+.portfolio-carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  position: relative;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* Fixed aspect ratio container */
+  padding-top: 56.25%; /* 16:9 aspect ratio - adjust as needed */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.dark .image-wrapper {
+  background-color: #2d2d2d;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.carousel-control {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 0 5px;
+  z-index: 2;
+}
+
+.carousel-control:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.carousel-control svg {
+  fill: #333;
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+.carousel-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+  margin: 0 3px;
+}
+
+.carousel-indicator.active {
+  background-color: #2962ff;
+  transform: scale(1.2);
+}
+
+/* Dark theme adjustments */
+.dark .carousel-control {
+  background-color: rgba(68, 71, 90, 0.8);
+}
+
+.dark .carousel-control:hover {
+  background-color: rgba(68, 71, 90, 1);
+}
+
+.dark .carousel-control svg {
+  fill: #eee;
+}
+
+.dark .carousel-indicator {
+  background-color: #666;
+}
+
+.dark .carousel-indicator.active {
+  background-color: #4caf50;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-control {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .carousel-indicator {
+    width: 6px;
+    height: 6px;
+    margin: 0 2px;
+  }
+  
+  .carousel-navigation {
+    margin-top: 8px;
+  }
+}
+</style>
+
+<script>
+// Immediately initialize this specific carousel
+(function() {
+  // Target just this carousel
+  const carousel = document.getElementById('{{ .Get "id" | default "portfolio-carousel" }}');
+  if (!carousel) return;
+  
+  const track = carousel.querySelector('.carousel-track');
+  const slides = carousel.querySelectorAll('.carousel-slide');
+  const indicators = carousel.querySelectorAll('.carousel-indicator');
+  const prevButton = carousel.querySelector('.carousel-control.prev');
+  const nextButton = carousel.querySelector('.carousel-control.next');
+  
+  let currentIndex = 0;
+  const slideCount = slides.length;
+  
+  // Set up initial position
+  updateCarousel();
+  
+  // Event listeners
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+    updateCarousel();
+  });
+  
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slideCount;
+    updateCarousel();
+  });
+  
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', () => {
+      currentIndex = index;
+      updateCarousel();
+    });
+  });
+  
+  // Touch events for mobile swipe
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  carousel.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+  
+  carousel.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, { passive: true });
+  
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    if (touchStartX - touchEndX > swipeThreshold) {
+      // Swipe left - next slide
+      currentIndex = (currentIndex + 1) % slideCount;
+      updateCarousel();
+    } else if (touchEndX - touchStartX > swipeThreshold) {
+      // Swipe right - previous slide
+      currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+      updateCarousel();
+    }
+  }
+  
+  // Auto-advance slides every 5 seconds
+  let autoplayInterval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % slideCount;
+    updateCarousel();
+  }, 5000);
+  
+  // Pause autoplay on hover
+  carousel.addEventListener('mouseenter', () => {
+    clearInterval(autoplayInterval);
+  });
+  
+  carousel.addEventListener('mouseleave', () => {
+    autoplayInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % slideCount;
+      updateCarousel();
+    }, 5000);
+  });
+  
+  // Update carousel position and active indicator
+  function updateCarousel() {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    
+    // Update active indicator
+    indicators.forEach((indicator, index) => {
+      if (index === currentIndex) {
+        indicator.classList.add('active');
+        indicator.setAttribute('aria-current', 'true');
+      } else {
+        indicator.classList.remove('active');
+        indicator.removeAttribute('aria-current');
+      }
+    });
+  }
+  
+  // Keyboard navigation
+  carousel.setAttribute('tabindex', '0');
+  carousel.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') {
+      currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+      updateCarousel();
+    } else if (e.key === 'ArrowRight') {
+      currentIndex = (currentIndex + 1) % slideCount;
+      updateCarousel();
+    }
+  });
+})();
+</script>

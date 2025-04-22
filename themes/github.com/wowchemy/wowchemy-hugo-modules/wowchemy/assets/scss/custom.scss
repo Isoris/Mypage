@@ -1,1 +1,132 @@
 // Override this file to add your own SCSS styling.
+.wg-about {
+  padding-top: 0px !important;  // Reduce top padding
+  margin-top: 5px !important; // Move up the whole section
+}
+
+#profile {
+  padding-top: 4px !important;  // Ensure profile section has no extra padding
+}
+
+//.wg-hero {
+//  padding-bottom: 0px !important;  // Reduce gap below the hero section
+//}
+
+/* assets/scss/custom.scss */
+
+/* Portfolio Carousel Styles */
+.portfolio-carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  position: relative;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.carousel-control {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.carousel-control:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.carousel-control svg {
+  fill: #333;
+}
+
+.carousel-indicators {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicator.active {
+  background-color: #2962ff; /* Use Wowchemy primary color */
+  transform: scale(1.2);
+}
+
+/* Dark theme adjustments */
+.dark .carousel-control {
+  background-color: rgba(68, 71, 90, 0.8);
+}
+
+.dark .carousel-control:hover {
+  background-color: rgba(68, 71, 90, 1);
+}
+
+.dark .carousel-control svg {
+  fill: #eee;
+}
+
+.dark .carousel-indicator {
+  background-color: #666;
+}
+
+.dark .carousel-indicator.active {
+  background-color: #4caf50; /* Use a different color for dark mode */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-control {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .carousel-indicator {
+    width: 8px;
+    height: 8px;
+  }
+}

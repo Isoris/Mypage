@@ -7,10 +7,18 @@ main:
   - name: About me
     url: '#about'
     weight: 10
-  - name: Publications
-    url: '#featured'
+  - name: Bioinformatics
+    url: '/gallery/Bioinformatics/'
+    weight: 40
+  - name: Molecular Biology & Field Work
+    url: '/gallery/Wetlab/'
     weight: 50
-  - name: Contact
-    url: '#contact'
-    weight: 65
- 
+  - name: Publications
+    url: 'https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22ANDRES%2C%20QUENTIN%20LUDOVIC%20STEPHANE%22&l=list&p=1&s=10&sort=bestmatch'
+    weight: 70
+#  - name: Contact
+#    url: '#contact'
+#    weight: 65
+#  - name: Gallery & Highlights
+#    url: '/gallery'
+#    weight: 30

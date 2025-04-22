@@ -10,9 +10,9 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 15
+weight: 1
 
-title: Welcome to <br> my page
+title:  <br>
 
 
 design:
@@ -21,11 +21,13 @@ design:
     image: CoverKoibanner.png
     image_darken: 1.0
     image_parallax: true
-    image_position: center
+    image_position: 50% 35%  # Moves the image 10% from the top
     image_size: cover
     text_color_light: true
+    text_size: 40%
   spacing:
-    padding: ["100px", "0", "175px", "0"]
+    padding: ["0px", "0", "30px", "0"]
+    
 ---
 
 

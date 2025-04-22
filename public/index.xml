@@ -134,7 +134,7 @@ The variance of the distribution is $\sigma^{2}$.
       <guid>/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    The research paper is still a draft in the progress of writing.
+    The research paper is still a draft in the progress of writing. To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above and click &lt;em&gt;Download&lt;/em&gt; to open.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -147,14 +147,27 @@ The variance of the distribution is $\sigma^{2}$.
       <guid>/publication/phd_thesis/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above.
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above and click &lt;em&gt;Download&lt;/em&gt; to open.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>Polyploid fish - Principles, Importance and Applications in main marine aquaculture species</title>
+      <title>Master Thesis - Immune response and protection of fry Nile tilapia (*Oreochromis niloticus*) immunized by immersion and oral bivalent vaccines against *Streptococcus agalactiae* and *Aeromonas veronii*</title>
+      <link>/publication/master_thesis/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/master_thesis/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To access to the paper - click the &lt;em&gt;PDF&lt;/em&gt;  button above and click &lt;em&gt;Download&lt;/em&gt; to open.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Polyploidy in Fish - Principles, Importance and Applications in Main Marine Aquaculture Species</title>
       <link>/publication/polyploid-fish/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       <guid>/publication/polyploid-fish/</guid>
@@ -167,7 +180,7 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>Triploid atlantic salmon</title>
+      <title>Triploidy in Atlantic Salmons</title>
       <link>/publication/salmon/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       <guid>/publication/salmon/</guid>
@@ -315,7 +328,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-758416293&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-428156379&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -325,7 +338,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-758416293&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-428156379&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
