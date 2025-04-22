@@ -1,0 +1,57 @@
+/*************************************************
+ *  Bioinformatics Featurette Widget (Illumina orange)
+ **************************************************/
+.featurette-bioinformatics {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+  
+  // Layout - 2 columns instead of 3
+  .col-12.col-sm-4 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  
+  .section-subheading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  // Illumina orange colors
+  .featurette-icon {
+    display: block;
+    width: 100%;
+    color: #f76700 !important; // Illumina orange
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h1, h2, h3, .section-heading {
+    color: #f76700 !important;
+  }
+  
+  // Style for displaying tools in a 2-column layout
+  .feature-description {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    // Remove line breaks and replace with commas for cleaner presentation
+    br {
+      display: none;
+    }
+    
+    br:after {
+      content: ", ";
+    }
+  }
+}
+
+.dark .featurette-bioinformatics,
+.dark .featurette-bioinformatics .section-subheading {
+  color: #fff;
+}

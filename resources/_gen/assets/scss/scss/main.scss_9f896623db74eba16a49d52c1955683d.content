@@ -9487,108 +9487,96 @@ div.chart {
   margin-bottom: 1rem;
   overflow-x: auto; }
 
-.wg-about {
-  padding-top: 0px !important;
-  margin-top: 5px !important; }
+.bioinformatics-skills .featurette-icon {
+  color: #f76700 !important; }
 
-#profile {
-  padding-top: 4px !important; }
+.bioinformatics-skills h1, .bioinformatics-skills h2, .bioinformatics-skills h3, .bioinformatics-skills .section-heading {
+  color: #f76700 !important; }
 
-/* assets/scss/custom.scss */
-/* Portfolio Carousel Styles */
-.portfolio-carousel {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto 2rem;
-  position: relative; }
+.bioinformatics-skills .col-12.col-sm-4 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important; }
 
-.carousel-container {
-  width: 100%;
-  overflow: hidden;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+.bioinformatics-skills .feature-description br {
+  display: none; }
 
-.carousel-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out; }
+.bioinformatics-skills .feature-description br:after {
+  content: ", "; }
 
-.carousel-slide {
-  min-width: 100%;
-  height: 100%; }
+.featurette-bioinformatics .featurette-icon {
+  color: #f76700 !important; }
 
-.carousel-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; }
+.featurette-bioinformatics h1, .featurette-bioinformatics h2, .featurette-bioinformatics h3, .featurette-bioinformatics .section-heading, .featurette-bioinformatics .feature-title {
+  color: #f76700 !important; }
 
-.carousel-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px; }
+.featurette-bioinformatics .col-12.col-sm-4 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important; }
 
-.carousel-control {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease; }
+/*************************************************
+ *  Bioinformatics Featurette Widget (Illumina orange)
+ **************************************************/
+.featurette-bioinformatics {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center; }
+  .featurette-bioinformatics .col-12.col-sm-4 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important; }
+  .featurette-bioinformatics .section-subheading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: #333; }
+  .featurette-bioinformatics .featurette-icon {
+    display: block;
+    width: 100%;
+    color: #f76700 !important;
+    font-size: 3rem;
+    text-align: center; }
+  .featurette-bioinformatics h1, .featurette-bioinformatics h2, .featurette-bioinformatics h3, .featurette-bioinformatics .section-heading {
+    color: #f76700 !important; }
+  .featurette-bioinformatics .feature-description {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%; }
+    .featurette-bioinformatics .feature-description br {
+      display: none; }
+    .featurette-bioinformatics .feature-description br:after {
+      content: ", "; }
 
-.carousel-control:hover {
-  background-color: white;
-  transform: scale(1.1); }
+.dark .featurette-bioinformatics,
+.dark .featurette-bioinformatics .section-subheading {
+  color: #fff; }
 
-.carousel-control svg {
-  fill: #333; }
+.bioinformatics-skills .featurette-icon {
+  color: #f76700 !important; }
 
-.carousel-indicators {
-  display: flex;
-  gap: 8px;
-  justify-content: center; }
+.bioinformatics-skills h1, .bioinformatics-skills h2, .bioinformatics-skills h3, .bioinformatics-skills .section-heading {
+  color: #f76700 !important; }
 
-.carousel-indicator {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #ccc;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease; }
+.bioinformatics-skills .col-12.col-sm-4 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important; }
 
-.carousel-indicator.active {
-  background-color: #2962ff;
-  /* Use Wowchemy primary color */
-  transform: scale(1.2); }
+.bioinformatics-skills .feature-description br {
+  display: none; }
 
-/* Dark theme adjustments */
-.dark .carousel-control {
-  background-color: rgba(68, 71, 90, 0.8); }
+.bioinformatics-skills .feature-description br:after {
+  content: ", "; }
 
-.dark .carousel-control:hover {
-  background-color: #44475a; }
+.featurette-bioinformatics .featurette-icon {
+  color: #f76700 !important; }
 
-.dark .carousel-control svg {
-  fill: #eee; }
+.featurette-bioinformatics h1, .featurette-bioinformatics h2, .featurette-bioinformatics h3, .featurette-bioinformatics .section-heading, .featurette-bioinformatics .feature-title {
+  color: #f76700 !important; }
 
-.dark .carousel-indicator {
-  background-color: #666; }
-
-.dark .carousel-indicator.active {
-  background-color: #4caf50;
-  /* Use a different color for dark mode */ }
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .carousel-control {
-    width: 32px;
-    height: 32px; }
-  .carousel-indicator {
-    width: 8px;
-    height: 8px; } }
+.featurette-bioinformatics .col-12.col-sm-4 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important; }

@@ -55,38 +55,17 @@ We report the **haplotype-resolved genome assembly of a Thai hybrid catfish (F1)
 This resource supports **hybrid fish breeding programs** and **Thailand's aquaculture industry**.  
 **NCBI BioProject:** [PRJNA115349](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA115349)
 
-### 🧬 Whole Genome Assembly
+### 🧬🦠 Whole Genome Assembly
 
 - **Organism:** *Streptococcus iniae* isolates from diseased farmed **Asian seabass**
 - **Technologies:** Illumina PE (short-reads) 
 - **Methodologies:**
-  - Single reference mapping
-  - De novo assembly
   - Reference-guided de novo assembly
-  - Multi-reference mapping onto pangenome graphs
-- **NCBI Submission:** Bioproject **PRJNA933632** (Private, soon public)
+  - De novo assembly of full-length bacterial chromosome
+  - Multi-reference mapping onto pangenome graphs for AMR assessment
+- **NCBI BioProject:** [PRJNA933632](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA933632)
 
 ---
-
-## 📚 Research Focus
-
-My research expertise spans **aquatic animal health, molecular biology, bioinformatics, and vaccine development**. Over the past three years, I have conducted independent research in the following areas:
-
-- 🧬 **Microbial Genome Assembly**: Assembled and analyzed **5 genomes** of *Streptococcus iniae*, a bacterial pathogen in **Asian seabass (Lates calcarifer).*
-- 🦠 **Antimicrobial Resistance (AMR) Research**: Investigated *Streptococcus* **pangenomes** to assess antibiotic resistance in **aquaculture pathogens in Thailand**.
-- 🐟 **Fish Genome Assembly**:
-  - Constructed a **haplotype-resolved genome** of **Bighead catfish** (*Clarias macrocephalus*).
-  - Assembled a **hybrid catfish genome** (*Clarias macrocephalus* × *Clarias gariepinus* F1 hybrid).
-- 💉 **Vaccine Development for Aquatic Animal Health**:
-  - **Reverse vaccinology** approach for candidate discovery.
-  - **Comparative genomics & bacterial pan-genomics** for antigen selection.
-  - **Development of recombinant and plasmid DNA vaccines** targeting *Streptococcus iniae*.
-  - **Quality by Design (QbD) principles** applied to vaccine production workflows.
-  - **Vaccine design, purification, and theoretical efficacy testing** for sustainable, low-cost solutions in aquaculture.
-- 🔬 **Custom Bioinformatics Toolkit Development**: Created **ScaffoldKit**, a genome assembly versioning tool integrating:
-  - **Mashmap scaffolding, reference-guided scaffolding, automated QV polishing, and decision-based ranking.**
-  - **Console visualization, IGV batch scripts, and synteny graph visualization tools.**
-
 📖 **Completed Work:** My doctoral research contributed to advancements in **genome assembly methodologies, vaccine candidate identification, and computational bioinformatics for microbial and fish genomics**.
 ---
 

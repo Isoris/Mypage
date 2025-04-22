@@ -1,0 +1,51 @@
+// Illumina orange for the bioinformatics section
+.bioinformatics-skills {
+  // Color customization
+  .featurette-icon {
+    color: #f76700 !important; // Illumina orange color
+  }
+  
+  h1, h2, h3, .section-heading {
+    color: #f76700 !important;
+  }
+  
+  // Layout customization - ONLY applies to bioinformatics skills
+  .col-12.col-sm-4 {
+    width: 50% !important; // Make each feature take half the width
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  
+  // Optional: adjust the description layout to show items in comma-separated style
+  .feature-description {
+    br {
+      display: none; // Remove line breaks
+    }
+    
+    br:after {
+      content: ", "; // Replace line breaks with commas
+    }
+  }
+}
+
+
+// Override this file to add your own SCSS styling.
+
+// Bioinformatics Featurette Widget (Illumina orange)
+.featurette-bioinformatics {
+  // Illumina orange colors
+  .featurette-icon {
+    color: #f76700 !important; // Force Illumina orange
+  }
+  
+  h1, h2, h3, .section-heading, .feature-title {
+    color: #f76700 !important;
+  }
+  
+  // Layout - 2 columns instead of 3
+  .col-12.col-sm-4 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
