@@ -49,3 +49,5 @@ $sta-dark-home-section-even: {{ $scr.Get "dark_home_section_even" }};
 @import "wowchemy/wowchemy";
 @import "template";
 @import "custom";
+@import "themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/assets/scss/wowchemy/widgets/featurette_bioinformatics";
+@import "assets/scss/custom.scss";

@@ -130,3 +130,19 @@
     height: 8px;
   }
 }
+
+
+// Illumina orange for the bioinformatics section
+.bioinformatics-skills {
+  .featurette-icon {
+    color: #f76700 !important; // Illumina orange color
+  }
+  
+  h1, h2, h3 {
+    color: #f76700 !important;
+  }
+  
+  .section-heading {
+    color: #f76700 !important;
+  }
+}
