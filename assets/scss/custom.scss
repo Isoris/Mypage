@@ -49,3 +49,8 @@
     max-width: 50% !important;
   }
 }
+
+// Move just the text column up in the about widget
+.wg-about .col-12.col-lg-8 {
+  margin-top: -40px;
+}

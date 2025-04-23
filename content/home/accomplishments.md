@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Trainings & MOOCs'
+title: 'Conferences, Trainings & MOOCs (Certificates)'
 subtitle:
 
 # Date format
@@ -23,6 +23,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- certificate_url: "./media/certificate_participation_IGST_Quentin_ANDRES.pdf"
+  date_start: "2024-01-01"  # Added proper date format - please adjust to the actual date
+  date_end: ""
+  title: "Presenter Participant iGST 2024 Conference"
+  organization: "Naresuan University"
+  organization_url: "https://www.nu.ac.th/"
+  description: "I Participated in the 2024 International Conference of the Genetics Society of Thailand (iGST), under the sub-theme 'Human and Medical Genetics - Forensic Genetics,' exploring advanced topics in genomic applications for health and identification."
+  url: ""
 - certificate_url: https://www.coursera.org/learn/statistical-inference
   date_end: ""  # Fill in the date of completion or leave empty if ongoing
   date_start: "2020-11-25"  # Replace with the actual start date
