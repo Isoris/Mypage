@@ -1,3 +1,351 @@
+:root {
+  --primary: #0056b3;
+  --secondary: #e05e00;
+  --background-light: #f8f9fa;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.page-content {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section {
+  position: relative;
+  padding: 4rem 0;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.publication-card {
+  border-left: 3px solid var(--primary);
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  
+  .pub-title {
+    font-weight: 600;
+  }
+  
+  .pub-authors {
+    font-style: italic;
+  }
+  
+  .pub-journal {
+    color: var(--primary);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 86, 179, 0.5);
+  border-radius: 4px;
+  
+  &:hover {
+    background: var(--primary);
+  }
+}
+
+@media print {
+  .navbar, .footer, .sidebar {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+  
+  .page-content {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Modern theme toggle styling */
+.dropdown-menu {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.dropdown-item {
+  padding: 0.6rem 1.2rem;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+  
+  &:hover {
+    background-color: rgba(0, 86, 179, 0.05);
+    border-left: 3px solid #0056b3;
+    transform: translateX(3px);
+  }
+  
+  &.active {
+    background-color: rgba(0, 86, 179, 0.1);
+    color: #0056b3;
+    font-weight: 500;
+  }
+}
+
+/* Special styling for dark mode toggle */
+.dropdown-item[data-theme="dark"] {
+  &:hover {
+    border-left: 3px solid #343a40;
+  }
+  
+  &.active {
+    background-color: rgba(52, 58, 64, 0.1);
+    color: #343a40;
+  }
+}
+
+/* Special styling for orange/automatic mode */
+.dropdown-item[data-theme="auto"] {
+  &:hover {
+    border-left: 3px solid #e05e00;
+  }
+  
+  &.active {
+    background-color: rgba(224, 94, 0, 0.1);
+    color: #e05e00;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.btn, .nav-link, .card, .social-icons a {
+  position: relative;
+  overflow: hidden;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+  }
+  
+  &:active::after {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
+}
+
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] {
+  --background-light: #2d2d2d;
+  --text-primary: #e1e1e1;
+  --text-secondary: #b0b0b0;
+}
+
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(0, 86, 179, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--primary);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+
+/* Compact Education Widget */
+.education-compact-widget {
+  padding: 1.5rem 0;
+  
+  .section-heading {
+    margin-bottom: 1.5rem;
+    
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 70px;
+      height: 3px;
+      background: linear-gradient(90deg, #0056b3, transparent);
+      margin: 10px 0 15px;
+    }
+  }
+  
+  .education-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background-color: #0056b3;
+      opacity: 0.7;
+    }
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .education-icon {
+      color: #0056b3;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .degree {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      color: #333;
+    }
+    
+    .field {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+    
+    .institution {
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 0.3rem;
+      color: #0056b3;
+      
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.2s ease;
+        
+        &:hover {
+          color: #003d80;
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .year {
+      font-size: 0.75rem;
+      color: #777;
+      margin-bottom: 0.8rem;
+    }
+    
+    .description {
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.4;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .education-card {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.research-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  .research-image {
+    flex: 0 0 200px;
+    
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    &.left {
+      order: -1;
+    }
+    
+    &.right {
+      order: 1;
+    }
+  }
+  
+  .research-text {
+    flex: 1 1 60%;
+    min-width: 300px;
+  }
+}
+
+
+
 // Illumina orange for the bioinformatics section
 .bioinformatics-skills {
   // Color customization
@@ -53,4 +401,872 @@
 // Move just the text column up in the about widget
 .wg-about .col-12.col-lg-8 {
   margin-top: -40px;
+}
+
+// Make "About me" heading more subtle
+section#about h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7); // Makes it slightly less prominent
+}
+
+// Make your name stand out
+.portrait-title h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+// Make research headings more prominent
+.wg-about h3 {
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+// Add subtle styling to list items
+.wg-about ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+// Add subtle shadow to profile image
+.avatar-circle {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+// Optional hover effect
+.avatar-circle:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+// Or use a hexagonal shape instead of circle
+.avatar-circle {
+  border-radius: 0;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+
+// Add fade-in animation for main elements
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+section#about {
+  animation: fadeIn 1s ease-in-out;
+}
+
+// Add subtle separator line between sections
+.wg-about h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #0056b3, transparent);
+  margin: 15px 0 25px;
+}
+
+// Add space between name and credentials
+.portrait-title h3 {
+  margin-top: 12px;
+}
+
+// Reduce space between research sections
+.wg-about h1 + div {
+  margin-bottom: 1rem;
+}
+
+// Fine-tune overall section spacing
+section#about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// Add consistent spacing between sections
+.home-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// Reduce spacing for consecutive sections (optional)
+.home-section + .home-section {
+  padding-top: 30px;
+}
+
+
+// Style all section headings consistently
+.section-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+// Add subtle underline to section headers (similar to About section)
+.section-heading h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #0056b3, transparent);
+  margin: 15px 0 25px;
+}
+
+// Add subtle shadow and hover effect to all cards
+.card {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+// Enhance timeline appearance
+.timeline-item {
+  padding-left: 2rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: rgba(0, 86, 179, 0.2);
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 15px;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #0056b3;
+}
+
+// Enhance skill icons
+.skills-icon {
+  color: #0056b3;
+  transition: all 0.3s ease;
+}
+
+.skills-icon:hover {
+  transform: scale(1.1);
+}
+
+// Add more breathing room in skill listings
+.skills-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+// Subtle fade-in animation for all sections
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-section {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+// Stagger the animations slightly for each section
+.home-section:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.home-section:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.home-section:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+
+/* Card-based Skills Layout with Animation Effects */
+/* Enhanced Card-based Skills Layout with Animation Effects */
+
+/* Card-based Skills Layout with Animation Effects */
+
+// Basic card styling for featurette items
+.skill-card {
+  flex: 0 0 auto;
+  width: 280px; // Wider cards
+  height: 300px; // Slightly shorter height
+  margin-right: 20px;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+  position: relative;
+  overflow: hidden;
+  
+  // Two decorative lines
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    transition: all 0.4s ease;
+  }
+  
+  &::before {
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 2px;
+  }
+  
+  &::after {
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 2px;
+  }
+  
+  // Card title
+  .section-subheading {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-size: 0.95rem; // Smaller text as requested
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); // Add shadow to titles
+  }
+  
+  // Skills description
+  .skill-description {
+    font-size: 0.8rem; // Smaller text as requested
+    overflow-y: auto;
+    max-height: 180px;
+    
+    p {
+      margin-bottom: 0.3rem;
+    }
+    
+    ul {
+      padding-left: 1.2rem;
+      
+      li {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+}
+
+// Regular featurette (blue theme)
+.featurette:not(.featurette-bioinformatics) {
+  .featurette-icon {
+    color: #0056b3;
+    font-size: 2.2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-card {
+    &::before, &::after {
+      background-color: rgba(0, 86, 179, 0.1);
+    }
+    
+    &:hover {
+      transform: rotate3d(1, 1, 0, 5deg) translateY(-5px);
+      width: 300px; // Wider on hover
+      height: 290px;
+      background-color: rgba(240, 247, 255, 1);
+      box-shadow: 0 12px 24px rgba(0, 86, 179, 0.2);
+      z-index: 1;
+      
+      .section-subheading {
+        color: #0056b3;
+        text-shadow: 1px 1px 3px rgba(0, 86, 179, 0.15);
+      }
+      
+      .featurette-icon {
+        transform: scale(1.1);
+        color: #0056b3;
+      }
+      
+      &::before, &::after {
+        width: 60px;
+        background-color: rgba(0, 86, 179, 0.3);
+      }
+    }
+  }
+}
+
+// Bioinformatics featurette (orange theme)
+.featurette-bioinformatics {
+  .section-heading h1 {
+    color: #e05e00; // Darker orange for heading
+    text-shadow: 1px 1px 3px rgba(224, 94, 0, 0.1);
+  }
+  
+  .featurette-icon {
+    color: #e05e00; // Darker illumina orange
+    font-size: 2.2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-card {
+    height: 350px; // Make bioinformatics cards taller
+    
+    &::before, &::after {
+      background-color: rgba(224, 94, 0, 0.1);
+    }
+    
+    .section-subheading {
+      color: #e05e00; // Darker orange
+      text-shadow: 1px 1px 3px rgba(224, 94, 0, 0.15);
+    }
+    
+    &:hover {
+      transform: rotate3d(1, 1, 0, 5deg) translateY(-5px);
+      width: 300px; // Wider on hover
+      height: 340px; // Keep the height similar on hover
+      background-color: rgba(255, 248, 240, 1);
+      box-shadow: 0 12px 24px rgba(224, 94, 0, 0.2);
+      z-index: 1;
+      
+      .featurette-icon {
+        transform: scale(1.1);
+      }
+      
+      &::before, &::after {
+        width: 60px;
+        background-color: rgba(224, 94, 0, 0.3);
+      }
+    }
+  }
+}
+
+// Container for the scrollable cards
+.horizontal-scroll-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  scrollbar-width: thin;
+  
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+}
+
+// Automatic passive card rotation
+@keyframes cardHighlight {
+  0% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+// Apply animation to cards in sequence
+.skill-card:nth-child(1) { animation: cardHighlight 8s infinite 0s; }
+.skill-card:nth-child(2) { animation: cardHighlight 8s infinite 0.4s; }
+.skill-card:nth-child(3) { animation: cardHighlight 8s infinite 0.8s; }
+.skill-card:nth-child(4) { animation: cardHighlight 8s infinite 1.2s; }
+.skill-card:nth-child(5) { animation: cardHighlight 8s infinite 1.6s; }
+.skill-card:nth-child(6) { animation: cardHighlight 8s infinite 2.0s; }
+.skill-card:nth-child(7) { animation: cardHighlight 8s infinite 2.4s; }
+.skill-card:nth-child(8) { animation: cardHighlight 8s infinite 2.8s; }
+.skill-card:nth-child(9) { animation: cardHighlight 8s infinite 3.2s; }
+
+// Make sure the featurette section has proper spacing
+.row.featurette {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+// Add a nice blue line under the section title for the standard featurette
+.featurette:not(.featurette-bioinformatics) .section-heading h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #0056b3, transparent);
+  margin: 10px 0 20px;
+}
+
+// Add an orange line under the section title for bioinformatics
+.featurette-bioinformatics .section-heading h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #e05e00, transparent);
+  margin: 10px 0 20px;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .skill-card {
+    width: 240px;
+    height: 300px;
+  }
+  
+  .skill-card:hover {
+    width: 260px;
+    height: 290px;
+  }
+  
+  .featurette-bioinformatics .skill-card {
+    height: 350px;
+    
+    &:hover {
+      height: 340px;
+    }
+  }
+}
+
+/* Research Summary Widget Styling */
+.research-summary-widget {
+  margin-bottom: 2rem;
+  
+  .summary-intro {
+    margin-bottom: 1.5rem;
+  }
+  
+  .research-tabs {
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .tab-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
+    .tab-button {
+      padding: 0.75rem 1.25rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-weight: 500;
+      color: #495057;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: rgba(0, 86, 179, 0.05);
+      }
+      
+      &.active {
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        background-color: white;
+      }
+      
+      i {
+        margin-right: 6px;
+      }
+    }
+  }
+  
+  .tab-content {
+    background-color: white;
+    min-height: 250px;
+  }
+  
+  .tab-pane {
+    display: none;
+    padding: 1.5rem;
+    animation: fadeIn 0.3s ease-in-out;
+    
+    &.active {
+      display: block;
+    }
+  }
+  
+  .research-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0056b3;
+  }
+  
+  .research-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  .research-details {
+    font-size: 0.95rem;
+    
+    ul {
+      padding-left: 1.25rem;
+    }
+    
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// Optional: Add a collapsible section for "Skills Breakdown"
+.skills-section {
+  margin-top: 2rem;
+  
+  .skills-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    
+    h3 {
+      margin: 0;
+    }
+    
+    .toggle-icon {
+      transition: transform 0.3s ease;
+    }
+    
+    &.open .toggle-icon {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .skills-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    
+    &.open {
+      max-height: 1000px; // Adjust as needed
+    }
+  }
+}
+
+
+/* Modern Header Styling */
+
+// Add a subtle gradient background
+.navbar {
+  background: linear-gradient(to right, rgba(255,255,255,0.97), rgba(245,248,255,0.97)) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.08);
+  }
+}
+
+// Style the navigation links
+.navbar .navbar-nav .nav-link {
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+  transition: all 0.3s ease;
+  color: #395988;
+  
+  // Animated underline on hover
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #0056b3;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  &:hover {
+    color: #0056b3;
+    
+    &::after {
+      width: 80%;
+    }
+  }
+  
+  // Active link styling
+  &.active {
+    color: #0056b3;
+    font-weight: 600;
+    
+    &::after {
+      width: 80%;
+    }
+  }
+}
+
+// Style the site title/logo
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0056b3 !important;
+  position: relative;
+  padding-left: 0.5rem;
+  
+  // Add a decorative element to the brand
+  &::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    height: 70%;
+    width: 3px;
+    background: linear-gradient(to bottom, #0056b3, #73c1ff);
+    transform: translateY(-50%);
+    border-radius: 3px;
+  }
+  
+  // Subtle animation on hover
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+// Add subtle transitions to the navbar on scroll
+.navbar-scrolled {
+  background: rgba(255, 255, 255, 0.98) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+// Make the dark mode toggle more modern
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+// Add a subtle shine effect to the header area
+.page-header {
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, 
+      rgba(255,255,255,0) 0%, 
+      rgba(255,255,255,0.1) 50%, 
+      rgba(255,255,255,0) 100%);
+    animation: shine 3s infinite linear;
+    pointer-events: none;
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(100%) rotate(45deg);
+  }
+}
+
+
+/* Profile Footer Styling */
+.profile-footer {
+  margin-top: 4rem;
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  
+  .profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+  
+  .profile-hexagon {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .profile-details {
+    text-align: left;
+    
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  
+  .name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .specialization {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #0056b3;
+  }
+  
+  .social-icons {
+    margin-top: 1.5rem;
+    
+    a {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: #666;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: #0056b3;
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
+
+
+/* Profile Footer with modern styling - updated with smaller text */
+.profile-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, rgba(248, 249, 250, 0) 0%, rgba(248, 249, 250, 1) 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  
+  .profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .profile-hexagon {
+      width: 120px; /* Slightly smaller image */
+      height: 120px;
+      object-fit: cover;
+      clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.05) rotate(2deg);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+  
+  .profile-details {
+    padding-left: 1.5rem;
+    
+    .name {
+      font-size: 1.8rem; /* Smaller text */
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      background: linear-gradient(90deg, #0056b3, #52a5ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .title {
+      font-size: 0.9rem; /* Smaller text */
+      margin-bottom: 0.7rem;
+      color: #555;
+    }
+    
+    .specialization {
+      font-size: 1rem; /* Smaller text */
+      margin-bottom: 0.7rem;
+      color: #0056b3;
+    }
+    
+    .social-icons {
+      margin-top: 1rem;
+      
+      a {
+        font-size: 1.2rem; /* Smaller icons */
+        margin-right: 1rem;
+        color: #495057;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          color: #0056b3;
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .profile-details {
+      padding-left: 0;
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+  }
 }

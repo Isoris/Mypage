@@ -1,0 +1,87 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row research-summary-widget">
+  <div class="col-12 section-heading">
+    <h1>{{ $page.Title | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+
+  <div class="col-12">
+    {{ with $page.Content }}
+      <div class="summary-intro">
+        {{ . }}
+      </div>
+    {{ end }}
+    
+    <div class="research-tabs">
+      <div class="tab-navigation">
+        {{ range $index, $item := $page.Params.research_areas }}
+          <button class="tab-button {{ if eq $index 0 }}active{{ end }}" data-tab="tab-{{ $index }}">
+            {{ with .icon }}<i class="{{ .pack }} {{ .pack_prefix }}-{{ .name }}"></i>{{ end }} {{ .title }}
+          </button>
+        {{ end }}
+      </div>
+      
+      <div class="tab-content">
+        {{ range $index, $item := $page.Params.research_areas }}
+          <div id="tab-{{ $index }}" class="tab-pane {{ if eq $index 0 }}active{{ end }}">
+            <div class="research-content">
+              <!-- Add image if defined -->
+              {{ if .image }}
+              <div class="research-image {{ .image_position | default "left" }}">
+                <img src="{{ .image }}" alt="{{ .title }}" />
+              </div>
+              {{ end }}
+              
+              <div class="research-text">
+                <!-- Only show title if different from tab title to avoid duplication -->
+                {{ if ne .title (index $page.Params.research_areas $index).title }}
+                  <h3 class="research-title">{{ .title }}</h3>
+                {{ end }}
+                
+                {{ with .subtitle }}
+                  <h4 class="research-subtitle">{{ . | markdownify }}</h4>
+                {{ end }}
+                
+                <div class="research-details">
+                  {{ .content | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Simple tab functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    
+    tabButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const tabId = this.getAttribute('data-tab');
+        
+        // Hide all tab panes
+        tabPanes.forEach(pane => {
+          pane.classList.remove('active');
+        });
+        
+        // Deactivate all buttons
+        tabButtons.forEach(btn => {
+          btn.classList.remove('active');
+        });
+        
+        // Show the selected tab
+        document.getElementById(tabId).classList.add('active');
+        
+        // Activate the clicked button
+        this.classList.add('active');
+      });
+    });
+  });
+</script>

@@ -1,0 +1,42 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="education-compact-widget">
+  <div class="container">
+    {{ with $page.Title }}
+    <div class="row">
+      <div class="col-12 section-heading">
+        <h1>{{ . | markdownify | emojify }}</h1>
+        {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+      </div>
+    </div>
+    {{ end }}
+    
+    <div class="row">
+      {{ range $page.Params.education }}
+      <div class="col-12 col-md-4 mb-4">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-{{ .icon }}"></i>
+          </div>
+          <h3 class="degree">{{ .degree }}</h3>
+          <p class="field">{{ .field }}</p>
+          <div class="institution">
+            {{ if .institution_url }}
+            <a href="{{ .institution_url }}" target="_blank" rel="noopener">{{ .institution }}</a>
+            {{ else }}
+            {{ .institution }}
+            {{ end }}
+          </div>
+          {{ with .year }}
+          <div class="year">{{ . }}</div>
+          {{ end }}
+          {{ with .description }}
+          <div class="description">{{ . | markdownify }}</div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

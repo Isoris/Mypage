@@ -21,7 +21,7 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-Experience:
+Experience: 
   - title: 'A Polishing Strategy for Removing Impurities in Bispecific Antibody Purification'
     company_url: 'https://globalmeet.webcasts.com/starthere.jsp?ei=1633987&tp_key=b3d500d6c4'
     company_logo: bioprocess

@@ -5,7 +5,7 @@ widget: accomplishments
 # This file represents a page section.
 headless: true
 # Order that this section appears on the page.
-weight: 45
+weight: 17
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'PhD-level equivalent proof of study'
 subtitle:

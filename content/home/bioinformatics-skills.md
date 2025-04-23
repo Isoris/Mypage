@@ -1,6 +1,6 @@
 ---
 # An instance of the Featurette widget with Illumina colors (orange)
-widget: featurette
+widget: featurette-bioinformatics
 
 # This file represents a page section.
 headless: true

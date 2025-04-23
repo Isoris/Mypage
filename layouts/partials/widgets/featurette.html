@@ -1,0 +1,48 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row featurette">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <div class="col-md-12">
+    <div class="horizontal-scroll-container">
+      {{ range $page.Params.feature }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      
+      <div class="skill-card">
+        {{ with .icon }}
+        <div class="featurette-icon">
+          {{- if eq $pack "emoji" -}}
+            {{- . | emojify -}}
+          {{- else if eq $pack "custom" -}}
+            {{- $svg_icon := resources.Get (printf "media/icons/%s.svg" .) -}}
+            {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.}}" class="svg-icon svg-baseline">{{- end -}}
+          {{- else -}}
+            <i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i>
+          {{- end -}}
+        </div>
+        {{ end }}
+        <h3 class="section-subheading">{{ .name | markdownify | emojify }}</h3>
+        {{ with .description }}
+          <div class="skill-description">{{ . | markdownify | emojify }}</div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

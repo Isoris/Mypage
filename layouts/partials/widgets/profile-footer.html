@@ -1,0 +1,31 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="profile-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-2">
+        <div class="profile-image-container">
+          <!-- Use the exact filename you provided -->
+          <img src="/img/avatar.png" alt="Quentin Andres" class="profile-hexagon">
+        </div>
+      </div>
+      <div class="col-12 col-md-9 profile-details">
+        <h3 class="name">Quentin Andres</h3>
+        <p class="title">PhD-level research, completed in Applied Genomics, waiting degree conferral in Fisheries Science and Technology (International Program)</p>
+        
+        {{ with $page.Params.specialization }}
+        <p class="specialization">{{ . }}</p>
+        {{ end }}
+        
+        <div class="social-icons">
+          {{ range $page.Params.social }}
+          <a href="{{ .link }}" target="_blank" rel="noopener">
+            <i class="{{ .icon_pack }} {{ .icon_pack }}-{{ .icon }}"></i>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
