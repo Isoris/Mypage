@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 19
 
-title: Skills
+title: Molecular Biology & Canonical Skills
 subtitle:
 
 # Showcase personal skills or business features.

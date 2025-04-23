@@ -609,7 +609,7 @@ section#about {
 .skill-card {
   flex: 0 0 auto;
   width: 280px; // Wider cards
-  height: 300px; // Slightly shorter height
+  height: 400px; // Slightly shorter height
   margin-right: 20px;
   padding: 1.5rem;
   border-radius: 8px;
@@ -655,7 +655,7 @@ section#about {
   .skill-description {
     font-size: 0.8rem; // Smaller text as requested
     overflow-y: auto;
-    max-height: 180px;
+    max-height: 250px;
     
     p {
       margin-bottom: 0.3rem;
@@ -691,7 +691,7 @@ section#about {
     &:hover {
       transform: rotate3d(1, 1, 0, 5deg) translateY(-5px);
       width: 300px; // Wider on hover
-      height: 290px;
+      height: 400px;
       background-color: rgba(240, 247, 255, 1);
       box-shadow: 0 12px 24px rgba(0, 86, 179, 0.2);
       z-index: 1;
@@ -732,7 +732,7 @@ section#about {
   }
   
   .skill-card {
-    height: 350px; // Make bioinformatics cards taller
+    height: 400px; // Make bioinformatics cards taller
     
     &::before, &::after {
       background-color: rgba(224, 94, 0, 0.1);
@@ -746,7 +746,7 @@ section#about {
     &:hover {
       transform: rotate3d(1, 1, 0, 5deg) translateY(-5px);
       width: 300px; // Wider on hover
-      height: 340px; // Keep the height similar on hover
+      height: 400px; // Keep the height similar on hover
       background-color: rgba(255, 248, 240, 1);
       box-shadow: 0 12px 24px rgba(224, 94, 0, 0.2);
       z-index: 1;

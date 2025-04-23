@@ -9,10 +9,10 @@ primary_light = "#205072"
 primary_dark = "#E9765B"
 
 # Menu
-menu_primary = "#C2C8C5"
-menu_text = "#2C6975"
+menu_primary = "#F4F6F8"
+menu_text = "#0056B3"
 menu_text_active = "#E9765B"
-menu_title = "#2C6975"
+menu_title = "#0056B3"
 
 # Backgrounds
 background = "#fff"

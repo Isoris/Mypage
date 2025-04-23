@@ -28,6 +28,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/quentinandres/
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0009-0003-3434-1778
 ---
 
 
