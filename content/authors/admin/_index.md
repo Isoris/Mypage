@@ -1,6 +1,6 @@
 ---
 title: Quentin Andres
-role: PhD Candidate in Fisheries Science and Technology (International Program)
+role: PhD-level research, completed in Applied Genomics, waiting degree conferral in Fisheries Science and Technology (International Program)
 bio: Specializing in aquaculture, molecular biology, genomics, bioinformatics, and vaccine development.
 email: "quentin.ls.andres@gmail.com"
 highlight_name: false
@@ -99,7 +99,7 @@ This resource supports **hybrid fish breeding programs** and **Thailand's aquacu
 ---
 
 ## 🎓 Educational Background
-- **PhD Candidate** (Near Completion): Fisheries Science and Technology, **Kasetsart University**
+- **PhD Candidate** (Near completion, pending institutional review): Fisheries Science and Technology, **Kasetsart University**
 - **MSc**: Aquaculture and Aquatic Resources Management, **Asian Institute of Technology**
 - **BSc**: Life Sciences, Major in Molecular and Genetic Biology, **University Côte d'Azur**
 
